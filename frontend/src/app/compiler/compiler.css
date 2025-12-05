@@ -1,0 +1,51 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.editor {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  font-family: "Courier New", monospace;
+  border-radius: 6px;
+  border: 1px solid #888;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.input-box {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  font-family: "Courier New", monospace;
+  border-radius: 6px;
+  border: 1px solid #888;
+  resize: vertical;
+}
+
+.run-btn {
+  margin: 12px 0;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.run-btn:hover {
+  background: #0056b3;
+}
+
+.console {
+  background: #000;
+  color: #0f0;
+  padding: 10px;
+  height: 250px;
+  overflow-y: auto;
+  border-radius: 6px;
+  margin-top: 10px;
+}
